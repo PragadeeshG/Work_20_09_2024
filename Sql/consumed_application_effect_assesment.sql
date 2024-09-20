@@ -1,0 +1,15 @@
+create table if not exists consumed_application_effect_assesment(
+assesment_type varchar(255) not null,
+current_flow_path varchar(255) null,
+health_check char null,
+flow_break_indicator Integer null,
+consumed_application_name varchar(255) null,
+online_assesment varchar(255) null,
+online_assesment_code Integer null,
+online_assesment_url varchar(255) null,
+credentials varchar(255) null,
+offline_assesment_code Integer null,
+offline_assesment_location varchar(255) null,
+operations_email varchar(255) null,
+flow_break_root_cause varchar(255) null,
+constraint consumed_application_effect_assesment_pk primary key(assesment_type));

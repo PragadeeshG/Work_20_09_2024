@@ -1,0 +1,18 @@
+create table if not exists consumer_application_effect_assesment(
+assesment_type varchar(255) not null,
+health_check char null,
+downstream_code Integer null,
+current_flow_path varchar(255) null,
+online_assesment varchar(255) null,
+online_assesment_code Integer null,
+online_assesment_url varchar(255) null,
+quality_controls varchar(255) null,
+data_quality_code Integer null,
+data_quality_check_done_date varchar(255) null,
+data_quality_status varchar(255) null,
+operations_email varchar(255) null,
+impact_analysis varchar(255) null,
+root_cause_tracker varchar(255) null,
+entity_state varchar(255) null,
+remarks varchar(255) null,
+constraint consumer_application_effect_assesment_pk primary key(assesment_type));
